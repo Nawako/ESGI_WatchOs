@@ -57,8 +57,18 @@
                                 <action selector="touchDetailButton" destination="ZGh-jR-22Z" id="APS-IC-pCH"/>
                             </connections>
                         </button>
+                        <table alignment="left" id="fgj-k1-o7H">
+                            <items>
+                                <tableRow id="zDm-IL-kab">
+                                    <group key="rootItem" width="1" alignment="left" id="0n4-H5-U5k"/>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
                     <color key="backgroundColor" red="0.0" green="0.76848014710000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="interfaceTable" destination="0n4-H5-U5k" id="quA-cv-5t5"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="482" y="122"/>

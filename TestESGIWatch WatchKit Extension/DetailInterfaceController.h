@@ -11,4 +11,6 @@
 
 @interface DetailInterfaceController : WKInterfaceController
 
+@property (strong, nonatomic) IBOutlet WKInterfaceGroup *interfaceTable;
+
 @end

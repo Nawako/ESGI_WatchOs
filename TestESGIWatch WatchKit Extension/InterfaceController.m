@@ -51,6 +51,7 @@
 
 
 - (IBAction)onTouchAction2 {
+    // Manière code pour lier la vu au controlleur
     [self pushControllerWithName:@"DetailController" context:nil];
 }
 

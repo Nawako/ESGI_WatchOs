@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC32BE1D1BC3BCBC00FECCA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE1C1BC3BCBC00FECCA2 /* main.m */; };
+		EC32BE201BC3BCBC00FECCA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE1F1BC3BCBC00FECCA2 /* AppDelegate.m */; };
+		EC32BE231BC3BCBC00FECCA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE221BC3BCBC00FECCA2 /* ViewController.m */; };
+		EC32BE261BC3BCBC00FECCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE241BC3BCBC00FECCA2 /* Main.storyboard */; };
+		EC32BE281BC3BCBC00FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE271BC3BCBC00FECCA2 /* Assets.xcassets */; };
+		EC32BE2B1BC3BCBC00FECCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE291BC3BCBC00FECCA2 /* LaunchScreen.storyboard */; };
+		EC32BE301BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EC32BE2F1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App.app */; };
+		EC32BE361BC3BCBC00FECCA2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE341BC3BCBC00FECCA2 /* Interface.storyboard */; };
+		EC32BE381BC3BCBC00FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE371BC3BCBC00FECCA2 /* Assets.xcassets */; };
+		EC32BE3F1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EC32BE3E1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EC32BE471BC3BCBD00FECCA2 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE461BC3BCBD00FECCA2 /* InterfaceController.m */; };
+		EC32BE4A1BC3BCBD00FECCA2 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE491BC3BCBD00FECCA2 /* ExtensionDelegate.m */; };
+		EC32BE4D1BC3BCBD00FECCA2 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE4C1BC3BCBD00FECCA2 /* NotificationController.m */; };
+		EC32BE4F1BC3BCBD00FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE4E1BC3BCBD00FECCA2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC32BE311BC3BCBC00FECCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC32BE101BC3BCBC00FECCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC32BE2E1BC3BCBC00FECCA2;
+			remoteInfo = "TestESGIWatch WatchKit App";
+		};
+		EC32BE401BC3BCBD00FECCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC32BE101BC3BCBC00FECCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC32BE3D1BC3BCBD00FECCA2;
+			remoteInfo = "TestESGIWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC32BE561BC3BCBD00FECCA2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EC32BE3F1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC32BE5A1BC3BCBD00FECCA2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EC32BE301BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC32BE181BC3BCBC00FECCA2 /* TestESGIWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestESGIWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32BE1C1BC3BCBC00FECCA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC32BE1E1BC3BCBC00FECCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC32BE1F1BC3BCBC00FECCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC32BE211BC3BCBC00FECCA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC32BE221BC3BCBC00FECCA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC32BE251BC3BCBC00FECCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC32BE271BC3BCBC00FECCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC32BE2A1BC3BCBC00FECCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC32BE2C1BC3BCBC00FECCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC32BE2F1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestESGIWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32BE351BC3BCBC00FECCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EC32BE371BC3BCBC00FECCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC32BE391BC3BCBC00FECCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC32BE3E1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TestESGIWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32BE441BC3BCBD00FECCA2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EC32BE451BC3BCBD00FECCA2 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		EC32BE461BC3BCBD00FECCA2 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		EC32BE481BC3BCBD00FECCA2 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		EC32BE491BC3BCBD00FECCA2 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		EC32BE4B1BC3BCBD00FECCA2 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		EC32BE4C1BC3BCBD00FECCA2 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		EC32BE4E1BC3BCBD00FECCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC32BE501BC3BCBD00FECCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC32BE151BC3BCBC00FECCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC32BE3B1BC3BCBD00FECCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC32BE0F1BC3BCBC00FECCA2 = {
+			isa = PBXGroup;
+			children = (
+				EC32BE1A1BC3BCBC00FECCA2 /* TestESGIWatch */,
+				EC32BE331BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App */,
+				EC32BE421BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension */,
+				EC32BE191BC3BCBC00FECCA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC32BE191BC3BCBC00FECCA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BE181BC3BCBC00FECCA2 /* TestESGIWatch.app */,
+				EC32BE2F1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App.app */,
+				EC32BE3E1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC32BE1A1BC3BCBC00FECCA2 /* TestESGIWatch */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BE1E1BC3BCBC00FECCA2 /* AppDelegate.h */,
+				EC32BE1F1BC3BCBC00FECCA2 /* AppDelegate.m */,
+				EC32BE211BC3BCBC00FECCA2 /* ViewController.h */,
+				EC32BE221BC3BCBC00FECCA2 /* ViewController.m */,
+				EC32BE241BC3BCBC00FECCA2 /* Main.storyboard */,
+				EC32BE271BC3BCBC00FECCA2 /* Assets.xcassets */,
+				EC32BE291BC3BCBC00FECCA2 /* LaunchScreen.storyboard */,
+				EC32BE2C1BC3BCBC00FECCA2 /* Info.plist */,
+				EC32BE1B1BC3BCBC00FECCA2 /* Supporting Files */,
+			);
+			path = TestESGIWatch;
+			sourceTree = "<group>";
+		};
+		EC32BE1B1BC3BCBC00FECCA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BE1C1BC3BCBC00FECCA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC32BE331BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BE341BC3BCBC00FECCA2 /* Interface.storyboard */,
+				EC32BE371BC3BCBC00FECCA2 /* Assets.xcassets */,
+				EC32BE391BC3BCBC00FECCA2 /* Info.plist */,
+			);
+			path = "TestESGIWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		EC32BE421BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BE451BC3BCBD00FECCA2 /* InterfaceController.h */,
+				EC32BE461BC3BCBD00FECCA2 /* InterfaceController.m */,
+				EC32BE481BC3BCBD00FECCA2 /* ExtensionDelegate.h */,
+				EC32BE491BC3BCBD00FECCA2 /* ExtensionDelegate.m */,
+				EC32BE4B1BC3BCBD00FECCA2 /* NotificationController.h */,
+				EC32BE4C1BC3BCBD00FECCA2 /* NotificationController.m */,
+				EC32BE4E1BC3BCBD00FECCA2 /* Assets.xcassets */,
+				EC32BE501BC3BCBD00FECCA2 /* Info.plist */,
+				EC32BE431BC3BCBD00FECCA2 /* Supporting Files */,
+			);
+			path = "TestESGIWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EC32BE431BC3BCBD00FECCA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BE441BC3BCBD00FECCA2 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC32BE171BC3BCBC00FECCA2 /* TestESGIWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC32BE5B1BC3BCBD00FECCA2 /* Build configuration list for PBXNativeTarget "TestESGIWatch" */;
+			buildPhases = (
+				EC32BE141BC3BCBC00FECCA2 /* Sources */,
+				EC32BE151BC3BCBC00FECCA2 /* Frameworks */,
+				EC32BE161BC3BCBC00FECCA2 /* Resources */,
+				EC32BE5A1BC3BCBD00FECCA2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC32BE321BC3BCBC00FECCA2 /* PBXTargetDependency */,
+			);
+			name = TestESGIWatch;
+			productName = TestESGIWatch;
+			productReference = EC32BE181BC3BCBC00FECCA2 /* TestESGIWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC32BE2E1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC32BE571BC3BCBD00FECCA2 /* Build configuration list for PBXNativeTarget "TestESGIWatch WatchKit App" */;
+			buildPhases = (
+				EC32BE2D1BC3BCBC00FECCA2 /* Resources */,
+				EC32BE561BC3BCBD00FECCA2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC32BE411BC3BCBD00FECCA2 /* PBXTargetDependency */,
+			);
+			name = "TestESGIWatch WatchKit App";
+			productName = "TestESGIWatch WatchKit App";
+			productReference = EC32BE2F1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EC32BE3D1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC32BE531BC3BCBD00FECCA2 /* Build configuration list for PBXNativeTarget "TestESGIWatch WatchKit Extension" */;
+			buildPhases = (
+				EC32BE3A1BC3BCBD00FECCA2 /* Sources */,
+				EC32BE3B1BC3BCBD00FECCA2 /* Frameworks */,
+				EC32BE3C1BC3BCBD00FECCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestESGIWatch WatchKit Extension";
+			productName = "TestESGIWatch WatchKit Extension";
+			productReference = EC32BE3E1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC32BE101BC3BCBC00FECCA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Etudiant;
+				TargetAttributes = {
+					EC32BE171BC3BCBC00FECCA2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EC32BE2E1BC3BCBC00FECCA2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EC32BE3D1BC3BCBD00FECCA2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EC32BE131BC3BCBC00FECCA2 /* Build configuration list for PBXProject "TestESGIWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC32BE0F1BC3BCBC00FECCA2;
+			productRefGroup = EC32BE191BC3BCBC00FECCA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC32BE171BC3BCBC00FECCA2 /* TestESGIWatch */,
+				EC32BE2E1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App */,
+				EC32BE3D1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC32BE161BC3BCBC00FECCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32BE2B1BC3BCBC00FECCA2 /* LaunchScreen.storyboard in Resources */,
+				EC32BE281BC3BCBC00FECCA2 /* Assets.xcassets in Resources */,
+				EC32BE261BC3BCBC00FECCA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC32BE2D1BC3BCBC00FECCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32BE381BC3BCBC00FECCA2 /* Assets.xcassets in Resources */,
+				EC32BE361BC3BCBC00FECCA2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC32BE3C1BC3BCBD00FECCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32BE4F1BC3BCBD00FECCA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC32BE141BC3BCBC00FECCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32BE231BC3BCBC00FECCA2 /* ViewController.m in Sources */,
+				EC32BE201BC3BCBC00FECCA2 /* AppDelegate.m in Sources */,
+				EC32BE1D1BC3BCBC00FECCA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC32BE3A1BC3BCBD00FECCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32BE4A1BC3BCBD00FECCA2 /* ExtensionDelegate.m in Sources */,
+				EC32BE471BC3BCBD00FECCA2 /* InterfaceController.m in Sources */,
+				EC32BE4D1BC3BCBD00FECCA2 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC32BE321BC3BCBC00FECCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC32BE2E1BC3BCBC00FECCA2 /* TestESGIWatch WatchKit App */;
+			targetProxy = EC32BE311BC3BCBC00FECCA2 /* PBXContainerItemProxy */;
+		};
+		EC32BE411BC3BCBD00FECCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC32BE3D1BC3BCBD00FECCA2 /* TestESGIWatch WatchKit Extension */;
+			targetProxy = EC32BE401BC3BCBD00FECCA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC32BE241BC3BCBC00FECCA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC32BE251BC3BCBC00FECCA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC32BE291BC3BCBC00FECCA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC32BE2A1BC3BCBC00FECCA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC32BE341BC3BCBC00FECCA2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC32BE351BC3BCBC00FECCA2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC32BE511BC3BCBD00FECCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC32BE521BC3BCBD00FECCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC32BE541BC3BCBD00FECCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TestESGIWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilomobi.TestESGIWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		EC32BE551BC3BCBD00FECCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TestESGIWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilomobi.TestESGIWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		EC32BE581BC3BCBD00FECCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TestESGIWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TestESGIWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilomobi.TestESGIWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		EC32BE591BC3BCBD00FECCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TestESGIWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TestESGIWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilomobi.TestESGIWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		EC32BE5C1BC3BCBD00FECCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestESGIWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilomobi.TestESGIWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC32BE5D1BC3BCBD00FECCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestESGIWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kilomobi.TestESGIWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC32BE131BC3BCBC00FECCA2 /* Build configuration list for PBXProject "TestESGIWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC32BE511BC3BCBD00FECCA2 /* Debug */,
+				EC32BE521BC3BCBD00FECCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC32BE531BC3BCBD00FECCA2 /* Build configuration list for PBXNativeTarget "TestESGIWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC32BE541BC3BCBD00FECCA2 /* Debug */,
+				EC32BE551BC3BCBD00FECCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC32BE571BC3BCBD00FECCA2 /* Build configuration list for PBXNativeTarget "TestESGIWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC32BE581BC3BCBD00FECCA2 /* Debug */,
+				EC32BE591BC3BCBD00FECCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC32BE5B1BC3BCBD00FECCA2 /* Build configuration list for PBXNativeTarget "TestESGIWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC32BE5C1BC3BCBD00FECCA2 /* Debug */,
+				EC32BE5D1BC3BCBD00FECCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC32BE101BC3BCBC00FECCA2 /* Project object */;
+}

@@ -21,6 +21,7 @@
 		EC32BE4A1BC3BCBD00FECCA2 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE491BC3BCBD00FECCA2 /* ExtensionDelegate.m */; };
 		EC32BE4D1BC3BCBD00FECCA2 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE4C1BC3BCBD00FECCA2 /* NotificationController.m */; };
 		EC32BE4F1BC3BCBD00FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE4E1BC3BCBD00FECCA2 /* Assets.xcassets */; };
+		EC32BE631BC3C30500FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE371BC3BCBC00FECCA2 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC32BE631BC3C30500FECCA2 /* Assets.xcassets in Resources */,
 				EC32BE4F1BC3BCBD00FECCA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

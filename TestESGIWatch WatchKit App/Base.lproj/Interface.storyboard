@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Home-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider=""/>
+                <controller title="Home" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="136" height="35" alignment="left" text="Hello Watch Kit" textAlignment="center" id="mpc-bx-akC">
+                            <color key="textColor" red="0.271484375" green="0.23039585811161378" blue="0.25293491648113636" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <imageView width="130" height="189" alignment="left" image="doge" id="YTq-ag-uDG"/>
+                        <group width="1" alignment="left" id="4v7-Bi-Kmu">
+                            <items>
+                                <button width="0.33000000000000002" alignment="left" title="Action 1" id="f1Z-LW-LZi">
+                                    <color key="backgroundColor" red="0.3470561304" green="0.3484059343" blue="0.3317752343" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <label width="0.33000000000000002" alignment="left" text="This method is called when watch view controller is about to be visible to user" numberOfLines="8" id="JCy-ms-WI9"/>
+                                <button width="0.33000000000000002" alignment="left" title="Action 2" id="7i6-Tp-jDE">
+                                    <color key="backgroundColor" red="0.3470561304" green="0.3484059343" blue="0.3317752343" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Don't touch it" id="W0i-4A-kVt">
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.76848014714241897" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="370"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +53,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider=""/>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>

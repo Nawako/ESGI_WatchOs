@@ -63,6 +63,7 @@
                                     <group key="rootItem" width="1" alignment="left" id="0n4-H5-U5k">
                                         <items>
                                             <label alignment="right" verticalAlignment="center" text="Label" textAlignment="right" id="5ba-DH-8sO"/>
+                                            <imageView width="57" alignment="left" id="mVw-uz-9x5"/>
                                         </items>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </group>

@@ -7,7 +7,7 @@
 //
 
 #import "DetailInterfaceController.h"
-
+#import "LetterRowController.h"
 
 @interface DetailInterfaceController () {
     @private
@@ -22,8 +22,16 @@
     [super awakeWithContext:context];
     
     values_ = @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K"];
-    [self.interfaceTable setNumberOfRows:[values_ count] withRowType:@"Letter"];
-    // Configure interface objects here.
+    
+    NSUInteger count = [values_ count];
+    
+    [self.interfaceTable setNumberOfRows:count withRowType:@"Letter"];
+    
+    for (NSUInteger i=0; i<count; i++) {
+        LetterRowController* rowController = [self.interfaceTable rowControllerAtIndex:i];
+        [rowController setLetter:[values_ objectAtIndex:i]];
+        
+    }
 }
 
 - (void)willActivate {

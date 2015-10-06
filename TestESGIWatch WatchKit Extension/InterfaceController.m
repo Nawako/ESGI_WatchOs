@@ -48,8 +48,10 @@
     
     [self presentAlertControllerWithTitle:@"So title" message:@"So message" preferredStyle:WKAlertActionStyleDefault actions:actions];
 }
+
+
 - (IBAction)onTouchAction2 {
-    
+    [self pushControllerWithName:@"DetailController" context:nil];
 }
 
 @end

@@ -27,7 +27,6 @@
                                     <color key="backgroundColor" red="0.3470561304" green="0.3484059343" blue="0.3317752343" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="onTouchAction2" destination="AgC-eL-Hgc" id="7de-jZ-SXm"/>
-                                        <segue destination="ZGh-jR-22Z" kind="push" id="ubz-SH-Bal"/>
                                     </connections>
                                 </button>
                             </items>

@@ -8,6 +8,7 @@
 
 #import "DetailInterfaceController.h"
 
+
 @interface DetailInterfaceController () {
     @private
     NSArray* values_;

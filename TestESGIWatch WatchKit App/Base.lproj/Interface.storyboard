@@ -59,8 +59,16 @@
                         </button>
                         <table alignment="left" id="fgj-k1-o7H">
                             <items>
-                                <tableRow id="zDm-IL-kab">
-                                    <group key="rootItem" width="1" alignment="left" id="0n4-H5-U5k"/>
+                                <tableRow identifier="Letter" id="zDm-IL-kab" customClass="LetterRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="0n4-H5-U5k">
+                                        <items>
+                                            <label alignment="right" verticalAlignment="center" text="Label" textAlignment="right" id="5ba-DH-8sO"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="5ba-DH-8sO" id="xw7-Bc-OUh"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>

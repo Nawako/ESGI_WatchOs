@@ -12,6 +12,8 @@
 @interface DetailInterfaceController () {
     @private
     NSArray* values_;
+    WKImage* img1;
+    WKImage* img2;
 }
 
 @end
@@ -29,8 +31,7 @@
     
     for (NSUInteger i=0; i<count; i++) {
         LetterRowController* rowController = [self.interfaceTable rowControllerAtIndex:i];
-        [rowController setLetter:[values_ objectAtIndex:i]];
-        
+        [rowController setLetter:[values_ objectAtIndex:i] mode:i%2];
     }
 }
 

@@ -11,7 +11,8 @@
 @interface LetterRowController : NSObject
 
 @property (strong, nonatomic) IBOutlet WKInterfaceLabel *titleLabel;
+@property (strong, nonatomic) IBOutlet WKInterfaceImage *imageLabel;
 
-- (void) setLetter: (NSString*) letter;
+- (void) setLetter: (NSString*) letter mode:(NSUInteger) mode;
 
 @end

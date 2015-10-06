@@ -10,8 +10,14 @@
 
 @implementation LetterRowController
 
-- (void) setLetter: (NSString*) letter {
+- (void) setLetter: (NSString*) letter mode: (NSUInteger) mode {
     [self.titleLabel setText:letter];
+    if (mode == 0) {
+        [self.imageLabel setImageNamed:@"troll"];
+    }
+    else {
+        [self.imageLabel setImageNamed:@"Nyancat"];
+    }
 }
 
 @end

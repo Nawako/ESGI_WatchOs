@@ -24,6 +24,7 @@
 		EC32BE631BC3C30500FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BE371BC3BCBC00FECCA2 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		EC32BE661BC3D2C300FECCA2 /* DetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE651BC3D2C300FECCA2 /* DetailInterfaceController.m */; settings = {ASSET_TAGS = (); }; };
 		EC32BE6A1BC3DF9600FECCA2 /* LetterRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE681BC3DAB300FECCA2 /* LetterRowController.m */; settings = {ASSET_TAGS = (); }; };
+		EC32BE6D1BC3E0AD00FECCA2 /* ImageRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BE6C1BC3E0AD00FECCA2 /* ImageRowController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,8 @@
 		EC32BE651BC3D2C300FECCA2 /* DetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInterfaceController.m; sourceTree = "<group>"; };
 		EC32BE671BC3DAB300FECCA2 /* LetterRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LetterRowController.h; path = "../TestESGIWatch WatchKit App/LetterRowController.h"; sourceTree = "<group>"; };
 		EC32BE681BC3DAB300FECCA2 /* LetterRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LetterRowController.m; path = "../TestESGIWatch WatchKit App/LetterRowController.m"; sourceTree = "<group>"; };
+		EC32BE6B1BC3E0AD00FECCA2 /* ImageRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRowController.h; sourceTree = "<group>"; };
+		EC32BE6C1BC3E0AD00FECCA2 /* ImageRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageRowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				EC32BE4C1BC3BCBD00FECCA2 /* NotificationController.m */,
 				EC32BE4E1BC3BCBD00FECCA2 /* Assets.xcassets */,
 				EC32BE501BC3BCBD00FECCA2 /* Info.plist */,
+				EC32BE6B1BC3E0AD00FECCA2 /* ImageRowController.h */,
+				EC32BE6C1BC3E0AD00FECCA2 /* ImageRowController.m */,
 				EC32BE431BC3BCBD00FECCA2 /* Supporting Files */,
 			);
 			path = "TestESGIWatch WatchKit Extension";
@@ -343,6 +348,7 @@
 			files = (
 				EC32BE6A1BC3DF9600FECCA2 /* LetterRowController.m in Sources */,
 				EC32BE4A1BC3BCBD00FECCA2 /* ExtensionDelegate.m in Sources */,
+				EC32BE6D1BC3E0AD00FECCA2 /* ImageRowController.m in Sources */,
 				EC32BE471BC3BCBD00FECCA2 /* InterfaceController.m in Sources */,
 				EC32BE661BC3D2C300FECCA2 /* DetailInterfaceController.m in Sources */,
 				EC32BE4D1BC3BCBD00FECCA2 /* NotificationController.m in Sources */,

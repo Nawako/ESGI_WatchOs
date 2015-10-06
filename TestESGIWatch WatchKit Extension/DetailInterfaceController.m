@@ -8,7 +8,10 @@
 
 #import "DetailInterfaceController.h"
 
-@interface DetailInterfaceController ()
+@interface DetailInterfaceController () {
+    @private
+    NSArray* values_;
+}
 
 @end
 
@@ -17,6 +20,8 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
     
+    values_ = @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K"];
+    [self.interfaceTable setNumberOfRows:[values_ count] withRowType:@"Letter"];
     // Configure interface objects here.
 }
 

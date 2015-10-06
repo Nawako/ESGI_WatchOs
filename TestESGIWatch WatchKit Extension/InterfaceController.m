@@ -32,6 +32,26 @@
     [super didDeactivate];
 }
 
+- (IBAction)btnValiderClick {
+    [self.btnValider setTitle:@"Oh, you touched it!"];
+}
+// Action sur le click 1 - alerte message
+- (IBAction)onTouchAction1 {
+    
+    NSMutableArray* actions = [NSMutableArray new];
+    WKAlertAction* aa = [WKAlertAction actionWithTitle:@"OK" style:WKAlertActionStyleDefault handler:^{NSLog(@"OK Touch");}];
+    
+    [actions addObject:aa];
+    aa = [WKAlertAction actionWithTitle:@"CANCEL" style:WKAlertActionStyleCancel handler:^{NSLog(@"CANCEL Touch");}];
+    
+    [actions addObject:aa];
+    
+    [self presentAlertControllerWithTitle:@"So title" message:@"So message" preferredStyle:WKAlertActionStyleDefault actions:actions];
+}
+- (IBAction)onTouchAction2 {
+    
+}
+
 @end
 
 

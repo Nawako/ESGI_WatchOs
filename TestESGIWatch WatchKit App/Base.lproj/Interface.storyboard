@@ -31,6 +31,13 @@
                                 </button>
                             </items>
                         </group>
+                        <switch width="1" alignment="left" value="YES" title="Doge Qualität" id="J0E-SG-CPq">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" red="0.0" green="0.62343497729999997" blue="0.81125710230000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onSwitchAction:" destination="AgC-eL-Hgc" id="4TA-Fr-sQK"/>
+                            </connections>
+                        </switch>
                         <button width="1" alignment="left" title="Don't touch it" id="W0i-4A-kVt">
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
@@ -41,6 +48,7 @@
                     <color key="backgroundColor" red="0.0" green="0.76848014714241897" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="btnValider" destination="W0i-4A-kVt" id="EO7-Fc-YB7"/>
+                        <outlet property="switchDoge" destination="J0E-SG-CPq" id="egP-Fa-bhW"/>
                     </connections>
                 </controller>
             </objects>
@@ -63,7 +71,7 @@
                                     <group key="rootItem" width="1" alignment="left" id="0n4-H5-U5k">
                                         <items>
                                             <label alignment="right" verticalAlignment="center" text="Label" textAlignment="right" id="5ba-DH-8sO"/>
-                                            <imageView width="51" alignment="left" id="mVw-uz-9x5"/>
+                                            <imageView width="0.5" height="1" alignment="left" contentMode="center" id="mVw-uz-9x5"/>
                                         </items>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </group>

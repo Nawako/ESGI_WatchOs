@@ -12,5 +12,6 @@
 @interface InterfaceController : WKInterfaceController
 
 @property (strong, nonatomic) IBOutlet WKInterfaceButton *btnValider;
+@property (strong, nonatomic) IBOutlet WKInterfaceSwitch *switchDoge;
 
 @end

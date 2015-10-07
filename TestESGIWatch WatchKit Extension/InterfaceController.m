@@ -55,6 +55,13 @@
     [self pushControllerWithName:@"DetailController" context:nil];
 }
 
+- (IBAction)onSwitchAction:(BOOL)value {
+    [self.switchDoge setTitle:@"Doged"];
+//    if (self switchDog) {
+//        <#statements#>
+//    }
+}
+
 @end
 
 
